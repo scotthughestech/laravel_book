@@ -1,0 +1,5 @@
+factory(App\Purchase::class)->make();
+
+factory(App\Purchase::class, 3)->make();
+
+factory(App\Purchase::class)->create();

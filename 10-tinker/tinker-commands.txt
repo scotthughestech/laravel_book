@@ -1,0 +1,13 @@
+App\Purchase::find(1);
+
+$purchase = new App\Purchase;
+
+$purchase->date = Carbon\Carbon::now();
+
+$purchase->price = 2.99;
+
+$purchase->description = "Chips";
+
+$purchase->save();
+
+App\Purchase::all();

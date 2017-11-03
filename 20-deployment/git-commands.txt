@@ -1,0 +1,15 @@
+Type these on your development machine in your project directory:
+
+git init
+
+git remote add origin https://gitlab.com/scotthughes/exampleapp.git
+
+- Note: Edit this to use your user name and project name
+
+git add .
+
+git commit -m "Initial commit"
+
+git push -u origin master
+
+- Note: Enter your GitLab username and password

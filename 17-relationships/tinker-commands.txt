@@ -1,0 +1,13 @@
+DB::table('users')->count();
+
+DB::table('purchases')->count();
+
+DB::table('users')->pluck('email');
+
+
+
+App\User::first()->purchases;
+
+App\User::first()->purchases()->count();
+
+App\Purchase::first()->user;

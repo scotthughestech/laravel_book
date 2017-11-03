@@ -1,0 +1,22 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Pager Styling
+.pagination { margin: 0; }
+
+.pager-top {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.pager-btm {
+    text-align: center;
+}
